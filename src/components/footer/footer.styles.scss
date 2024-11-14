@@ -1,0 +1,26 @@
+// Footer
+.footer {
+  background: var(--dark-color);
+  color: #fff;
+  border-top: 1px solid #384653;
+  padding: 0.5rem 2rem;
+
+  a {
+    color: #fff;
+
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

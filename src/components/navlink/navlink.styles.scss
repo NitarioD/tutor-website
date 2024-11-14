@@ -1,0 +1,11 @@
+.navbar {
+  a {
+    color: white;
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+  i {
+    font-size: 1.5rem;
+  }
+}
